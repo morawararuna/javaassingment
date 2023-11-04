@@ -5,7 +5,7 @@ public class ArrayRemoveDuplication {
 		int[] n = {90,70,78,87,78,90,61,61,22};
 		int[] m = new int[n.length];
 		// remove duplicate elements
-		//int[] n = {90,70,78,87,78,90,61,22};
+		//int[] n = {90,70,78,87,61,22};
 		boolean isFound = false;
 		int mIndex = 0;
 		for(int i=0;i<n.length;i++) {
